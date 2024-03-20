@@ -184,4 +184,38 @@ Darrera pàgina, on l'usuari es trobarà el formulari de contacte.
 
 
 # Responsive
+###### Pantalla principal a mòbil
+![indexmobil](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/fdd53de4-e51e-48b0-9c26-650e6b82d9dd)
+
+###### Pantalla principal mode nocturn a mòbil
+
+![indexnoctmob](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/0821bb06-2173-4e9f-bd2d-7b3a73cc50f9)
+
+###### Pantalla excursions a mòbil
+![responsiveexcursions](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/a7f823a6-058b-47bd-84ee-fd5a5d533f31)
+###### Pantalla excursions a mòbil, excursions desplegades
+![responsiveexcobertes](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/c1b3e4e5-3897-4b0d-aa3d-428893c1a942)
+###### Pantalla excursions a mòbil, comentaris mode nocturn
+![exccommnoct](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/ce475fa9-96d9-4da8-823f-c62f31d4501f)
+###### Pantalla reserves a mòbil
+![reservesdiurnmob](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/f69d84d4-bd55-45d3-9ba6-9c7e3509db2a)
+
+###### Pantalla reserves opcions a mòbil
+![reservesnoctmob](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/9374a559-9e2a-412a-9876-f7e0cae32a99)
+
+###### Pantalla reserves, reserva realitzada a mòbil
+![reservaokmobnoct](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8f5eaa5d-3efb-4ddb-86a8-e2e0c874e342)
+
+###### Pantalla contacte a mòbil
+![contmob](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/e0e330dc-694f-4a22-a006-459c71eed43d)
+###### Pantalla contacte nocturn a mòbil
+![contmoboknoct](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/a286b936-edf5-4b8c-ae67-66f41285af97)
+
+
+
+
+
+
+
+
 
