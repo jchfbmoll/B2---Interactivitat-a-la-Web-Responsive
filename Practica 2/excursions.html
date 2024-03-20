@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>TaxiWaiting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" >
+        <link rel="stylesheet" href="./css/estils.css">
+
+    </head>
+    
+    
+    <body onload="carregarExcursions()">
+
+
+
+        <header >  <!-- Etiqueta semàntica que estirà adalt de tot-->
+
+            <nav>   <!--Etiqueta semàntica per crear un menú de navegació, en el nostre cas
+            farà servir una llista no ordenada-->
+                <a href="./index.html" ><img id="logo" src="./img/logo.png"></a>
+                <ul> 
+                    <li><a href="./excursions.html">Excursions</a></li>
+                    <li><a href="./reserves.html">Reserves</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                </ul>
+                <a> <img src="./img/dark.png" id="mode" onclick="canviarmode()"></a>
+            </nav>
+               
+
+
+        </header>
+
+
+        <main id="excursio"> <!-- En aquesta pàgina, mostram diferentes excursions. amb fotogràfies i els diferents paràgrafs i títols-->
+
+            <div class="excursio"  id="topcentre" onclick="expand('centre')">
+
+                    <h3>Centre de Palma</h3>
+             
+                    <div class="descripcio" id="centre">
+                    
+                    </div>
+            </div>
+
+
+            <div class="excursio" id="topserra" onclick="expand('serra')">
+                <h3> Pobles de la Serra</h3>
+
+                <div class="descripcio"  id="serra">
+                    
+                </div>
+
+            </div>
+            <div class="excursio" id="topcoves" onclick="expand('coves')">
+                <h3> Coves del Drach</h3>
+
+                <div class="descripcio" id="coves">
+                    
+                </div>
+
+            </div>
+            <div class="comments" id="comments">
+
+                <h3>Comenta les nostres excursions</h3>
+                
+                <form name="comentaris" id="comentaris" >
+                    
+                    <input type="text" id="nom" name="nom" placeholder="Nom" required><br>
+                    <textarea id="infocomm" name="infocomm" placeholder="Escrigui aquí el seu comentari"  rows="10" cols="130" required></textarea><br>
+                    <input type="button" id = "submitComment" onclick="afegircomentari()" value="Envia comentari">
+                    
+                </form>
+
+
+
+            </div>
+
+
+        </main>
+
+    </body>
+    <script src="./js/script.js"></script>
+
+</html>

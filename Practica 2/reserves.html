@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>TaxiWaiting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" >
+        <link rel="stylesheet" href="./css/estils.css">
+
+    </head>
+    <body onload="carregarReserva()">
+
+
+        <header >  <!-- Etiqueta semàntica que estirà adalt de tot-->
+
+            <nav>   <!--Etiqueta semàntica per crear un menú de navegació, en el nostre cas
+            farà servir una llista no ordenada-->
+                <a href="./index.html" ><img id="logo" src="./img/logo.png"></a>
+                <ul> 
+                    <li><a href="./excursions.html">Excursions</a></li>
+                    <li><a href="./reserves.html">Reserves</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                </ul>
+                <a> <img src="./img/dark.png" id="mode" onclick="canviarmode()"></a>
+            </nav>
+               
+
+
+        </header>
+
+
+        <main id="reserva"> <!-- En aquesta pàgina, posam a disposició dels usuaris la possiblitat de reserva a través d'un formulari-->
+
+            <div id="contacteEsquerra">
+
+                
+                <h3>Formulari de reserva</h3>
+
+                <p> Utilitzi el següent formulari si vols fer realitzar una reserva dels nostres serveis. </p>
+
+                <br>
+            
+              
+            </div>
+            <div id="contacteDreta">
+
+                
+                <form name="reserva" id="reserva" action="" method="post" onsubmit="validacioreserva()">
+                    <fieldset id="resfield">
+                    <label for="tipus" >Reserva</label>
+                        <select name="tipus" id="tipus" onchange="canviarform()">
+                            <option selected="selected"></option>
+                            <option value="excursio">Excursió</option>
+                            <option value="taxi">Taxi</option>
+                            <option value="transfer">Transfer</option>
+                        </select>
+                    </fieldset><br>
+                    <fieldset id="orifield">
+                        <label for="origen"> Origen</label>
+                        <input type="text" id="origen" name="origen" placeholder="Trii l'origen" required> 
+                    </fieldset><br>
+                    <fieldset id="destifield">
+    
+                        <label for="desti"> Destí</label>
+                        <input type="text" id="desti" name="desti" placeholder="Trii el destí" >
+                    </fieldset> <br>
+                    <fieldset id="destexc">
+                        <label for="excursio"> Excursio</label>
+                        <select name="excursio" id="excursio">
+                            <option selected="selected"></option>
+                            <option value="centre">Centre de Palma</option>
+                            <option value="coves">Coves del Drach</option>
+                            <option value="serra">Serra de Tramuntana</option>
+                            <option value="altra">Altra</option>
+                        </select>
+                    </fieldset> <br>
+                    <fieldset id="datafield">
+
+                        <label for="data"> Data</label>
+                        <input type="date" id="data" name="data" placeholder="Data de la recollida" required > 
+                    
+                    </fieldset><br>
+                    <fieldset id="horarifield">
+
+                        <label for="hora"> Hora</label>
+                        <input type="time" id="hora" name="hora" placeholder="Horari de la recollida" required> 
+                    
+                    </fieldset><br>
+
+
+
+                    <textarea id="altra" name="altra" placeholder="Escrigui els seus comentaris"  rows="15" cols="130"></textarea><br>
+                    <input type="submit" id="submit">
+                    
+                </form>
+            </div>
+        </main>
+        <footer class="peu">
+         </p>Pàgina creada per Joaquín Comas</p>
+
+
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>

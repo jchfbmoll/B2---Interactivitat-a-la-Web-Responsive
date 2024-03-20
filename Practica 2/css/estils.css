@@ -1,0 +1,960 @@
+* { /* Inicialitzam els margets i els farcits */
+
+    margin: 0;
+    padding:0;
+
+}
+
+@media  screen and (min-width: 1080px) and (max-width: 4320px) { /* Media query per pantalles majors de 1080pixels*/
+
+    body {/* Fons blanc*/
+        background-color: white;
+    }
+
+
+    header {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        position: relative;
+        top : -100px;
+        transition: top 2s ease;
+
+    }
+
+
+
+    header nav{ /* Modificam el tamany i els colors del menu*/
+        height: 4vh;
+        border-bottom: 3px #8D021F solid;
+        z-index:9;
+
+    }
+
+    header nav ul{ /* Seguim configuram el menu de navegació */
+
+        padding-top:1vh;
+        padding-left: 12%; 
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box; 
+        left: 35vw;
+    }
+
+    
+    header nav a {
+
+        width: 4vh;
+        height: 4vh;
+        bottom: 1px;
+        
+    }
+    
+    header nav a  img#logo{
+        position: absolute;
+        width: 4vh;
+        height: 4vh;
+        bottom: 1vh;
+        left: 1vw;
+    }
+    
+    header nav a img#mode{
+        position: absolute;
+        width: 4vh;
+        height: 4vh;
+        bottom: 1vh;
+        right: 1vw;
+
+
+    }
+
+    header nav ul li{  /* Modificam l'amplada dels camps del menú de navegació*/
+
+        position: relative;
+        width: 25%;
+
+        list-style-type: none;
+        
+    }
+
+
+    header nav ul li a{ /* Canviam els colors del enllaçpps */
+
+        color: #8D021F;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    header nav ul li a:hover{ /* Canviam els colors del enllaçpps */
+
+        
+        font-weight: bold;
+    }
+
+
+    body {/* Fons blanc*/
+
+        background-color: white;
+        height: 100%;
+
+    }
+
+
+    main{ /*  Configuram el tamany d l'informació principal */
+
+        position: relative;  
+        padding-top: 7vh;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        font-size:30px;
+
+    }
+
+
+    main#index {
+
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main#index p{
+
+        color: black;
+        position: relative;
+        font-family: 'Times New Roman';
+        font-size: 30px;
+        left: 5vh;
+        width: 85%;
+        text-align: justify;
+    }
+
+    main#index div#carrusel{
+        display: block;
+        position: relative;
+        height: 45vh;
+    }
+
+    main#index div.imatgescarrusel{
+        position: absolute;
+        display: none;
+        top:0vh; 
+        right:-100vw;
+        width: 50%;
+        height: 35%;
+        align-items: center;
+        transition: right 1s ease;
+        transition: left 1s ease;
+    }
+    main#index div#carrusel a.prev{
+
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        width: 10px;
+        height: 10px;
+    }
+
+    main#index div#carrusel a.next{
+
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        width: 10px;
+        height: 10px;
+    }
+
+    main#index div#carrusel a.next{
+
+        position: absolute;
+
+    }
+
+    main#index div#carrusel div.imatgescarrusel img {
+        width: 100%;
+    }
+
+
+
+    main#index div.info{
+        display: block;
+        position: inherit; 
+        width: 100%;    
+        height: 20vh;
+        left: 5vh;
+        padding-top: 5vh;
+    }
+
+    main#reserva {      
+        display: flex;
+        top: 90vh;
+        transition: top 2s ease;
+    }
+
+
+    main#reserva form fieldset {
+        height: 35px;
+        border-width: 0;
+    }
+
+    main#reserva form label{
+        display: inline-block;
+        width: 150px;
+        padding-bottom: 10px;
+        font-size: 26px;
+        font-weight: 300;
+        color: dimgrey;
+        padding:0;
+
+    } 
+
+    main#reserva form select{
+
+        width: 10vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+
+    main#reserva div#contacteDreta form input{
+
+        width: 31vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+
+
+    main#reserva div#contacteDreta form #orifield, #destifield, #destexc, #datafield, #horarifield, #altra, #submit{
+        position: relative;
+        top: 90vh;
+        transition: top 2s ease;
+
+    }
+
+    main#reserva input#submit{
+
+
+        width:10vw;
+    }
+
+
+    main#contacte {      
+        display: flex;
+        top: 90vh;
+        transition: top 2s ease;
+    }
+
+    
+
+    main div#contacteEsquerra{
+        width: 50%;
+        height: 75vh;
+        top: 0;
+        left:0;
+    }
+
+    main div#contacteEsquerra h3{
+
+        color: #8D021F;
+        position: relative;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+        left: 5vh;
+    }
+
+    main div#contacteEsquerra p{
+
+        color: black;
+        position: relative;
+        font-family: 'Times New Roman';
+        font-size: 22px;
+        top: 3vh;
+        left: 5vh;
+        width: 85%;
+        text-align: justify;
+    }
+
+    main div#contacteEsquerra div#dirtel{
+
+
+        display: flex;
+
+    }
+    
+    main div#contacteEsquerra div#dirtel div#direccio{
+
+        position: relative;
+        width:50%;
+
+    }
+
+    main div#contacteEsquerra div#dirtel div#telefon{
+
+        position: relative;
+        width:50%;
+
+    }
+
+
+    main div#contacteEsquerra div#dirtel h5{
+        color: #8D021F;
+        position: relative;
+        width: 50%;
+        top:2vh;
+        left:5vh;  
+    }
+
+    main div#contacteEsquerra div#mail{
+        position: relative;
+        top:1vh;
+    }
+    
+    main div#contacteEsquerra div#mail h5{
+        
+        color: #8D021F;
+        position: relative;
+        width: 50%;
+        top:2vh;
+        left:5vh
+        
+    }
+
+    main div#contacteDreta {
+        position: relative;
+        width: 50%;
+        height: 75vh;
+        top: 0;
+        left:0;
+    }
+
+    main div#contacteDreta form{
+
+        position: relative;
+        top: 1vh;
+        font-size: 22px;
+        
+    }
+
+    main div#contacteDreta form input{
+
+        width: 37vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+    main div#contacteDreta form textarea{
+        width: 37vw;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+        resize: none;
+
+    }
+
+    main div#contacteDreta form input#submitCont{
+        position: relative;
+        width: 10vw;
+        padding-left: 10px;
+
+    }
+
+
+
+    main#excursio div.excursio{
+     
+        width : 100%;
+        height: 5vh;
+        border-bottom: #8D021F 1px solid;
+        padding-top:3vh;
+        left:0;
+        text-align: center;
+    }
+
+    main div.excursio h3{
+        color: #8D021F;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+        
+    }
+    main div.excursio div.descripcio{
+        display: flex;
+        flex-direction: wrap;
+
+
+    }
+    main div.excursio div.descripcio p{
+
+        color: black;
+        position: relative;
+        font-family: 'Times New Roman';
+        font-size: 1em;
+        font-weight: bold;
+        top: 3vh;
+        width: 70%;
+        text-align: justify;
+    }
+
+    main#excursio div.excursio div.descripcio img{
+        position: relative;
+        width: 25%;
+        height: 25vh;
+        top: 0;
+        left:5vw;
+    }
+
+    main#excursio div.excursio div.foto img{
+
+        position: relative;
+        width: 100%;
+        right: 5vw;
+    }
+
+    main#excursio div#comments{
+
+        width : 100%;
+        height: 5vh;
+        padding-top:3vh;
+        left:0;
+        text-align: center;    
+    }
+
+    main#excursio div#comments h3{
+
+        color: #8D021F;
+        position: relative;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+    }
+
+
+
+
+    main#excursio div#comments form{
+
+        position: relative;
+        top: 1vh;
+        font-size: 22px;
+        
+    }
+
+    main#excursio div#comments form input{
+
+        width: 37vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+        margin-top: 3vh;
+
+
+    }
+
+    main#excursio div#comments form textarea{
+        width: 67vw;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+        resize: none;
+
+    }
+
+    main#excursio div#comments p {
+
+
+        border: lightgray 1px solid;
+        padding: 1vw;
+    }
+
+    footer{ /* Configuram el peu de pàgina*/
+        position: absolute;
+        bottom:0;
+        background-color: #fcd12a;
+        margin-top: 10vh;   
+        padding-top: 3vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        width: 100vw;
+        box-sizing: border-box;
+        height: 10vh;
+        color: #8D021F;
+        font-weight: bold;
+        border-top: #8D021F 3px solid;
+        
+
+        
+    }
+
+}
+
+
+@media (orientation: portrait){
+
+
+    body {/* Fons blanc*/
+        background-color: white;
+    }
+
+
+    header {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        position: relative;
+        top : -100px;
+        transition: top 2s ease;
+
+    }
+
+
+
+    header nav{ /* Modificam el tamany i els colors del menu*/
+        height: 4vh;
+        border-bottom: 3px #8D021F solid;
+        z-index:9;
+
+    }
+
+    header nav ul{ /* Seguim configuram el menu de navegació */
+
+        padding-top:1vh;
+        padding-left: 12%; 
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box; 
+        left: 35vw;
+    }
+
+    
+    header nav a {
+
+        width: 4vh;
+        height: 4vh;
+        bottom: 1px;
+        
+    }
+    
+    header nav a  img#logo{
+        position: absolute;
+        width: 4vh;
+        height: 4vh;
+        bottom: 1vh;
+        left: 1vw;
+    }
+    
+    header nav a img#mode{
+        position: absolute;
+        width: 4vh;
+        height: 4vh;
+        bottom: 1vh;
+        right: 1vw;
+
+
+    }
+
+    header nav ul li{  /* Modificam l'amplada dels camps del menú de navegació*/
+
+        position: relative;
+        width: 25%;
+
+        list-style-type: none;
+        
+    }
+
+
+    header nav ul li a{ /* Canviam els colors del enllaçpps */
+
+        color: #8D021F;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    header nav ul li a:hover{ /* Canviam els colors del enllaçpps */
+
+        
+        font-weight: bold;
+    }
+
+
+    body {/* Fons blanc*/
+
+        background-color: white;
+        height: 100%;
+
+    }
+
+
+    main{ /*  Configuram el tamany d l'informació principal */
+
+        position: relative;  
+        padding-top: 7vh;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        font-size:30px;
+
+    }
+
+
+    main#index {
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main#index p{
+
+        color: black;
+        position: relative;
+        font-family: 'Times New Roman';
+        font-size: 30px;
+        width: 85%;
+        text-align: justify;
+    }
+
+    main#index div#carrusel{
+        display: block;
+        position: relative;
+        height: 25vh;
+    }
+
+    main#index div.imatgescarrusel{
+        position: absolute;
+        display: none;
+        top:0vh; 
+        width: 50%;
+        height: 10vh;
+        align-items: center;
+        transition: right 1s ease;
+        transition: left 1s ease;
+    }
+    main#index div#carrusel a.prev{
+
+        position: absolute;
+        top:8vh; 
+        left: 20%;
+        width: 10px;
+        height: 10px;
+    }
+
+    main#index div#carrusel a.next{
+
+        position: absolute;
+        top:8vh; 
+        right: 20%;
+        width: 10px;
+        height: 10px;   
+    }
+
+    main#index div#carrusel div.imatgescarrusel img {
+        width: 100%;
+    }
+
+    main#index div.info{
+        display: block;
+        position: inherit; 
+        width: 100%;    
+        height: 20vh;
+        left: 5vh;
+        padding-top: 5vh;
+    }
+
+    main#reserva {      
+        display: inline-block;
+        top: 90vh;
+        transition: top 2s ease;
+    }
+
+
+    main form fieldset {
+        height: 35px;
+        border-width: 0;
+    }
+
+    main form label{
+        display: inline-block;
+        width: 150px;
+        padding-bottom: 10px;
+        font-size: 26px;
+        font-weight: 300;
+        color: dimgrey;
+        padding:0;
+
+    } 
+
+    main#reserva form select{
+
+        width: 50vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+    }
+
+
+    main#reserva div#contacteDreta form input{
+
+        width: 50vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+
+
+    main#reserva div#contacteDreta form #orifield, #destifield, #destexc, #datafield, #horarifield, #altra, #submit{
+        position: relative;
+        top: 90vh;
+        transition: top 2s ease;
+
+    }
+
+    main#reserva input#submit{
+
+
+        width:10vw;
+    }
+
+
+    main#reserva div#contacteDreta form textarea{
+        
+        width: 69vw;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+        resize: none;
+
+    }
+
+    main#contacte {      
+        display: block;
+        top: 90vh;
+        transition: top 2s ease;
+    }
+
+    
+
+    main div#contacteEsquerra{
+        width: 100%;
+        height: 5vh;
+        top: 0;
+        left:0;
+    }
+
+    main div#contacteEsquerra h3{
+        display: block;
+        width: 100%;
+        color: #8D021F;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+        left: 5vh;
+    }
+
+    main div#contacteEsquerra p{
+        display: none;
+     
+    }
+
+    main div#contacteEsquerra div#dirtel{
+
+        display: none;
+
+    }
+    
+
+
+    main div#contacteEsquerra div#mail{
+        display: none;
+    }
+    
+
+    main div#contacteDreta {
+        position: relative;
+        width: 100%;
+        height: 75vh;
+        top: 0;
+        left:0;
+    }
+
+    main div#contacteDreta form{
+
+        position: relative;
+        top: 1vh;
+        font-size: 22px;
+        
+    }
+
+    main div#contacteDreta form input{
+
+        width: 37vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+
+
+    main div#contacteDreta form input#submitCont{
+        position: relative;
+        width: 10vw;
+        padding-left: 10px;
+
+    }
+
+
+
+    main#excursio div.excursio{
+     
+        width : 100%;
+        height: 5vh;
+        border-bottom: #8D021F 1px solid;
+        padding-top:3vh;
+        left:0;
+        text-align: center;
+    }
+
+    main div.excursio h3{
+        color: #8D021F;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+        
+    }
+    main div.excursio div.descripcio{
+        display: flex;
+        flex-direction: wrap;
+
+
+    }
+    main div.excursio div.descripcio p{
+
+        color: black;
+        position: relative;
+        font-family: 'Times New Roman';
+        font-size: 1em;
+        font-weight: bold;
+        top: 3vh;
+        width: 100%;
+        text-align: justify;
+    }
+
+    main#excursio div.excursio div.descripcio img{
+       display:none;
+    }
+
+
+    main#excursio div#comments{
+
+        width : 100%;
+        height: 5vh;
+        padding-top:3vh;
+        left:0;
+        text-align: center;    
+    }
+
+    main#excursio div#comments h3{
+
+        color: #8D021F;
+        position: relative;
+        font-family: 'Playfair Display',sans-serif;
+        top: 1vh;
+    }
+
+
+
+
+    main#excursio div#comments form{
+
+        position: relative;
+        top: 1vh;
+        font-size: 22px;
+        
+    }
+
+    main#excursio div#comments form input{
+
+        width: 37vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+        margin-top: 3vh;
+
+
+    }
+
+    main#excursio div#comments form textarea{
+        width: 67vw;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+        resize: none;
+
+    }
+
+    main#excursio div#comments p {
+
+
+        border: lightgray 1px solid;
+        padding: 1vw;
+    }
+
+
+    main#contacte div#contacteDreta form input{
+
+        width: 50vw;
+        height: 3vh;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+
+    }
+
+
+    main#contacte input#submit{
+
+
+        width:10vw;
+    }
+
+
+    main#contacte div#contacteDreta form textarea{
+        
+        width: 69vw;
+        margin-bottom: 2vh;
+        font-size: 26px;
+        padding-left: 10px;
+
+        resize: none;
+
+    }
+
+    footer{ /* Configuram el peu de pàgina*/
+        display: none;
+             
+
+        
+    }
+
+
+}
+

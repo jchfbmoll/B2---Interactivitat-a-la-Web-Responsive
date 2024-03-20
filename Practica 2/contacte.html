@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>TaxiWaiting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" >
+        <link rel="stylesheet" href="./css/estils.css">
+
+    </head>
+    <body onload="carregarContacte()">
+
+        <header >  <!-- Etiqueta semàntica que estirà adalt de tot-->
+
+            <nav>   <!--Etiqueta semàntica per crear un menú de navegació, en el nostre cas
+            farà servir una llista no ordenada-->
+                <a href="./index.html" ><img id="logo" src="./img/logo.png"></a>
+                <ul> 
+                    <li><a href="./excursions.html">Excursions</a></li>
+                    <li><a href="./reserves.html">Reserves</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                </ul>
+                <a> <img src="./img/dark.png" id="mode" onclick="canviarmode()"></a>
+            </nav>
+               
+
+
+        </header>
+
+
+
+        <main id="contacte"> <!-- En aquesta pàgina, posam a disposició dels usuaris, les diferents maneres de poder contactar amb nosaltres
+        a través de un nombre de telèfon o a través d'un correu electrònic-->
+            <div id="contacteEsquerra">
+
+                
+                    <h3>Formulari de contacte</h3>
+
+                    <p> Utilitzi el següent formulari i fes-nos arrivar totes aquelles consultes i dubtes que consideris oportunes. En què et podem ajudar? </p>
+
+                    <br>
+                    <div id="dirtel">
+                        <div id="direccio">
+                            <h5>Direcció</h5>
+                            <p> Carrer Arxiduc, 555, Palma de Mallorca</p>
+                        </div>
+                        <div id="telefon">
+                            <h5>Telèfon</h5>
+                            <p>+34 971 555 555</p>
+                            <p>+34 666 666 666</p>
+                        </div>
+                    </div>
+
+                    <div id="mail">
+                        <h5>Mail</h5>
+                        <p>Taxi555@gmail.com</p>
+
+
+                    </div>
+
+                  
+            </div>       
+            <div id="contacteDreta">
+
+                <form name="formcontacte" id="formcontacte" action="#" method="get" onsubmit="validaciocontacte()">
+                    
+                    <input type="email" id="email" name="email" placeholder="Email de contacte" pattern="[a-zA-Z][a-zA-Z0-9.-_]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]{2,3}" required><br>
+                    <textarea id="info" name="info" placeholder="Escrigui aquí el motiu de la seva sol·licitud"  rows="20" cols="130" required></textarea><br>
+                    <input type="submit" id = "submitCont">
+                </form>
+            </div>  
+           
+        </main>
+        <footer class="peu">
+         </p>Pàgina creada per Joaquín Comas</p>
+
+
+        </footer>
+
+
+
+    </body>
+    <script src="./js/script.js"></script>
+
+</html>

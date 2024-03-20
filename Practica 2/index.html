@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8"> <!--Codificació que farem servir-->
+        <title>TaxiWaiting</title> <!--Títol de la pàgina-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" > 
+        <!-- Cream es viewport, per poder fer feina en funcio de l'ample de la pàgina -->
+        <link rel="stylesheet" href="./css/estils.css"> <!-- Importam fulla d'estils -->
+
+    </head>
+    
+    
+    <body onload="carregarHeader()">
+
+
+        <header >  <!-- Etiqueta semàntica que estirà adalt de tot-->
+
+            <nav>   <!--Etiqueta semàntica per crear un menú de navegació, en el nostre cas
+            farà servir una llista no ordenada-->
+                <a href="./index.html" ><img id="logo" src="./img/logo.png"></a>
+                <ul> 
+                    <li><a href="./excursions.html">Excursions</a></li>
+                    <li><a href="./reserves.html">Reserves</a></li>
+                    <li><a href="./contacte.html">Contacte</a></li>
+                </ul>
+                <a> <img src="./img/dark.png" id="mode" onclick="canviarmode()"></a>
+            </nav>
+               
+
+
+        </header>
+
+        <main id="index" onload="carrusel(0)"> <!-- Etiqeuta semàntica pel texte principal-->
+            <div id="carrusel" >
+                <div class="imatgescarrusel">
+                    <img src="./img/catedralpalma.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/catedralpalmaint.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/foto-aerea-castell-de-bellver-cultura-12-feb.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/valldemossa.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/varadero-puerto-soller.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/vistas-del-port-de-soller-atarddecer_wide.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/coves-del-drach-1280x881.jpg" >
+                </div>
+                <div class="imatgescarrusel">
+                    <img src="./img/covesdrach.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+                <!-- Add more slides here -->
+                
+                <!-- Next and previous buttons--> 
+                <a class="prev" onclick="canviarCarrusel(-1)">❮</a>
+                <a class="next" onclick="canviarCarrusel(1)">❯</a>  
+                        
+
+            </div>
+
+            <div class="info">
+                <p>TaxiWaiting és la teva solució al transport dins l'illa de Mallorca, 
+                    oferim transfers a qualsevol part de l'illa.
+                </p>
+                <br>    
+                <p>
+                    Ademés, et podem dur d'excursió als llocs més innacessibles, triï entre una de les nostres
+                    excursions predeterminades o crei la seva pròpia excursió.
+                </p>
+                
+            </div>
+
+
+
+        </main>
+
+
+        <footer> <!--Etiqueta semàntica pel peu de pàgina-->
+            Pàgina creada per Joaquín Comas
+
+
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
