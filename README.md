@@ -66,6 +66,36 @@ A continuació, ens trobam el carrusel d'imatges, que va canviant cada 2 segons,
 
 #### Captures de pantalla
 
+###### Logotip
+
+El farem servir per tornar a la pàgina principal cada vegada que cliquem en ell.
+
+![logo](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/1f7d0d8d-6822-4270-810c-4395e708988d)
+
+###### Mode nocturn icone
+
+Clicant en ell canviam a mode nocturn.
+
+![dark](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/c2759003-1a77-483b-8a21-c24cef157f72)
+
+###### Mode diurn icone
+
+Clicant en ell canviam a mode diurn.
+
+![sol](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/c9578a2a-0abf-4aa9-a26c-bb7c636ed391)
+
+###### Index mode diurn
+
+Podem veure, diferents imatges de com va variant es carrusel, en mode diurn.
+![index](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/a9f9c16f-c980-4ffa-b9e6-302c2ced7a0e)
+![index1](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/932935db-f795-41a7-b8a7-14bcacdf40ee)
+![index2](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/3e461626-d2fa-45bf-ad3d-a26bb59f8ff6)
+![index3](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/f2c75292-91d3-42d7-a62e-b5823864167e)
+
+###### Index mode nocturn
+Podem veure, diferents imatges de com va variant es carrusel, en mode nocturn.
+![indexnoct](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/d7345b6f-4cb9-4275-904a-1aaf75c46c50)
+![indexnoct2](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/e82baee2-e1e4-48d8-a775-649e988e4183)
 
 ### Excursions.html
 
@@ -78,7 +108,19 @@ A més, després te totes les excursions, hi ha un formulari de comentaris, on l
 
 #### Captures de pantalla
 
+###### Pàgina amb tots es divs replegats
 
+![excursion1](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/33f246c9-9f5d-4436-959c-e0ba0222a148)
+
+###### Pàgina amb tots es divs oberts
+![excursiontotobert](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/29f6e514-78e9-4445-b36b-c4559bae6398)
+
+###### Pàgina amb tots es divs oberts amb comentaris
+![excursiototobertcomms](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/3ad0ed03-7d33-4d61-8ec1-e92a66ef6902)
+###### Pàgina amb tots es divs oberts sense comentaris nocturn
+![excursiototobertnocturn](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/d0a03da5-8020-48e8-be24-659c08cc90bf)
+###### Pàgina amb tots es divs oberts amb comentaris nocturn
+![excursiototobertnoctcomms](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8950e5de-be78-487e-8c52-f3ec45102c87)
 ### Reserves.html
 
 Tercer pàgina, on l'usuari pot reservar qualsevol dels serveis que s'ofereixen.
