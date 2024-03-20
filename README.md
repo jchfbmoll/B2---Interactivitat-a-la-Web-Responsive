@@ -70,7 +70,12 @@ A continuació, ens trobam el carrusel d'imatges, que va canviant cada 2 segons,
 ### Excursions.html
 
 Segona pàgina, on l'usuari trobarà tota l'informació referent a les excursions que s'ofereixen. A més, aquí es troba la secció de comentaris.
+
 #### Funcionalitat
+
+L'usuari, si clica damunt els títols de les excursions, farà mes grosses ses àrees d'aquestes, visualitzant la descripció de l'excursió i visualitzant una imatge relacionada amb aquesta excursió, si torna a pitjar sobre aquesta àrea, aquesta es tancarà i tota la web tornarà a sa seva posició anterior. 
+A més, després te totes les excursions, hi ha un formulari de comentaris, on l'usuari pot afegir un comentari a la web, si se introduïssin bases de dades, aquest apartat es podria utilizar per a que tots el usuaris interactuassin entre ells, pero actualment, al no disposar d'aquesta tecnologia, l'usuari és l'únic que pot veure els seus propis missatges. Però, quan refresqui, tots aquests missatges es perderan.
+
 #### Captures de pantalla
 
 
@@ -80,6 +85,8 @@ Tercer pàgina, on l'usuari pot reservar qualsevol dels serveis que s'ofereixen.
 
 #### Funcionalitat
 
+Aquí, l'usuari pot realitzar una reserva dels serveis que s'ofereixen a la WEB. Pot triar entre tres opcions, un taxi normal i corrent, un transfer entre el lloc on dormirà i el port o l'aeroport o una excursió per qualsevol de les opcions que disposam. Si tria un servei normal o un transfer, l'usuari haurà de afegir, l'origen, el destí, la data de recollida, l'hora de recollida i a més podrà afegir comentaris extra, com si necessita un maleter molt gros, una cadireta de nadó o un cotxe adaptat per minusvàlits. En el cas de tria una excursió, haura de seleccionar, l'origen, quina excursió vol fer, la data, l'hora i comentaris extra. S'única diferència es que a un tria el destí i a l'altra l'excursió. A més, com a sa resta, por navegar entre les diferents pàgines i pot tria entre mode nocturn o no.
+
 #### Captures de pantalla
 
 
@@ -88,6 +95,8 @@ Tercer pàgina, on l'usuari pot reservar qualsevol dels serveis que s'ofereixen.
 Darrera pàgina, on l'usuari es trobarà el formulari de contacte.
 
 #### Funcionalitat
+
+ Ademés de les opcions comuns de la resta de pàgines, en aquesta pàgina, l'usuari únicament podrà omplir un contacte per enviar les seves sugerències o els seus comentaris o dubtes que tengui.
 
 #### Captures de pantalla
 
