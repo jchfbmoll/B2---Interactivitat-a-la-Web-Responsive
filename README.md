@@ -60,7 +60,7 @@ Pàgina inicial de la WEB, on l'usuari trobarà tota l'informació necessària p
 
 #### Funcionalitat i interactivitat.
 
-L'usuari, pot navegar a través del menú, a les diferents WEBs. A travès del logotip es torna a la pàgina inicial, i a l'icone de la lluna es pot canviar al mode oscur.
+L'usuari, pot navegar, a través del menú, a les diferents WEBs. A travès del logotip es torna a la pàgina inicial, i a l'icone de la lluna es pot canviar al mode oscur.
 
 A continuació, ens trobam el carrusel d'imatges, que va canviant cada 2 segons, encara que també podem navegar a través del carrusel amb les fletxes que hi ha a tots dos costats, quan s'utilitza una de les fletxes, es reinicien els temporitzadors dels carrusels.
 
@@ -68,19 +68,29 @@ A continuació, ens trobam el carrusel d'imatges, que va canviant cada 2 segons,
 
 
 ### Excursions.html
+
+Segona pàgina, on l'usuari trobarà tota l'informació referent a les excursions que s'ofereixen. A més, aquí es troba la secció de comentaris.
 #### Funcionalitat
 #### Captures de pantalla
 
 
 ### Reserves.html
+
+Tercer pàgina, on l'usuari pot reservar qualsevol dels serveis que s'ofereixen.
+
 #### Funcionalitat
 
 #### Captures de pantalla
 
 
 ### Contacte.html
+
+Darrera pàgina, on l'usuari es trobarà el formulari de contacte.
+
 #### Funcionalitat
 
 #### Captures de pantalla
 
+
+# Responsive
 
