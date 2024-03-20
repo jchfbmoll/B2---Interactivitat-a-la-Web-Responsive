@@ -144,7 +144,21 @@ Aquí, l'usuari pot realitzar una reserva dels serveis que s'ofereixen a la WEB.
 
 #### Captures de pantalla
 
-
+###### Pàgina de reserves
+![reserves](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8b6a8e8a-93de-4f4d-bdc5-84998fe4c0fe)
+###### Pàgina de reserves mode nocturn
+![reservesdarkmode](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8e632766-6c65-40c8-9709-5534e58b615d)
+###### Reserva realitzada correctament
+![reservaok](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/a3d3df26-2a2e-432a-b27f-7aa0f1f82282)
+###### Reserva realitzada correctament mode nocturn
+![Taxiok](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/79bf4d61-bfa7-4db0-b8ab-11cf9853a82a)
+###### Error reserva perque no hi ha camps
+![reservanodata](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/4978c081-647e-4bb5-a20a-a081fc61b5cb)
+![reservanotime](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/c8c05d60-0d1a-4f76-8b47-b24f20101735)
+###### Error reserva data incorrecte
+![nodata](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/32cda73b-a84c-41b1-8718-93713352709e)
+###### Error reserva no hi ha destí
+![nodestiny](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/60c71325-2cee-4df5-b840-b4ce06f2ca12)
 ### Contacte.html
 
 Darrera pàgina, on l'usuari es trobarà el formulari de contacte.
@@ -154,6 +168,19 @@ Darrera pàgina, on l'usuari es trobarà el formulari de contacte.
  Ademés de les opcions comuns de la resta de pàgines, en aquesta pàgina, l'usuari únicament podrà omplir un contacte per enviar les seves sugerències o els seus comentaris o dubtes que tengui.
 
 #### Captures de pantalla
+###### Pàgina de contacte
+![contdiurn](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/61cfbbbf-5cbd-4694-ad67-e0c743adb8ac)
+###### Pàgina de contacte mode nocturn
+![contnoct](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/e97b2ec5-f586-491f-bdda-2d768f036924)
+###### Sugeriment enviat correctament
+![commok](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8ef14ece-0eb6-406c-9ebe-229294de4c22)
+
+###### Error contacte no hi ha mail
+![nomail](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/dd98e807-ef4e-4cd9-aa2b-40e69fc101dd)
+
+###### Error reserva no hi ha sugerències
+![noccont](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/ccf6d682-d7f0-4f2c-87dc-511d3ee5f106)
+
 
 
 # Responsive
