@@ -28,9 +28,9 @@ Segona pràctica de l'assignatura Llenguatge de Marques de 1er de DAW, què és 
 
 ## Software utilitzat
 
--**VS Code:** Per crear i editar els arxius .html, .css i .js.
--**Gimp:** Per crear el logotip de la pàgina.
--**Mozilla Firefox:** Per visualitzar i testejar els diferents elements de la WEB.
+- **VS Code:** Per crear i editar els arxius .html, .css i .js.
+- **Gimp:** Per crear el logotip de la pàgina.
+- **Mozilla Firefox:** Per visualitzar i testejar els diferents elements de la WEB.
 
 ## Elements comuns a la WEB
 
