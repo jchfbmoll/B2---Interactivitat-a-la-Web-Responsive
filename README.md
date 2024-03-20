@@ -121,6 +121,19 @@ A més, després te totes les excursions, hi ha un formulari de comentaris, on l
 ![excursiototobertnocturn](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/d0a03da5-8020-48e8-be24-659c08cc90bf)
 ###### Pàgina amb tots es divs oberts amb comentaris nocturn
 ![excursiototobertnoctcomms](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/8950e5de-be78-487e-8c52-f3ec45102c87)
+###### Comentari introduït correctament
+
+![imagen](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/11a3bef2-3141-4428-aec5-ca7539b2731e)
+
+###### Error introuint un comentari per no posar es nom
+![nonom](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/cfab7507-b7ba-4ff8-960e-11e426e1da63)
+
+###### Error introuint un comentari per no posar es comentari
+
+![nocomm](https://github.com/jchfbmoll/B2---Interactivitat-a-la-Web-Responsive/assets/151379997/e4ae0915-7055-48f3-a8d6-0c4fed31f342)
+
+
+
 ### Reserves.html
 
 Tercer pàgina, on l'usuari pot reservar qualsevol dels serveis que s'ofereixen.
